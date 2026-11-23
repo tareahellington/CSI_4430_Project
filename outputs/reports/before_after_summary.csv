@@ -1,0 +1,16 @@
+item,count,note,percent_of_raw
+Records before processing,150,"Original file, unchanged",100.0
+ from Darknet.csv,100,Records read from this file,66.7
+ from Darknet_test.csv,50,Records read from this file,33.3
+Records retained,150,Passed all checks,100.0
+Records set aside,0,Saved to quarantine.csv,0.0
+  set aside: exact_duplicate_row,0,A record can match >1 rule,0.0
+  set aside: unparseable_timestamp,0,A record can match >1 rule,0.0
+  set aside: last_before_first,0,A record can match >1 rule,0.0
+  set aside: non_numeric_port_packets_bytes,0,A record can match >1 rule,0.0
+  set aside: nonpositive_packets_or_bytes,0,A record can match >1 rule,0.0
+  set aside: port_out_of_range,0,A record can match >1 rule,0.0
+Retained but flagged: Port == 0,8,"Kept; unusual port value, see limitations",5.3
+Left as-is: nulls in City,115,Not applicable,76.7
+Left as-is: nulls in TCP,22,Not applicable,14.7
+Left as-is: nulls in ICMP,144,Not applicable,96.0

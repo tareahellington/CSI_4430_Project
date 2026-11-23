@@ -1,0 +1,1 @@
+source_file,Port,Traffic,First,Last,Packets,Bytes,UniqueDests,UniqueDest24s,Country,ASN,Org,Zmap,Masscan,Mirai,TCP,ICMP,src_ip_pseudonym,timestamp,protocol,port_zero,reason

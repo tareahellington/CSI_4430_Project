@@ -1,0 +1,5 @@
+Port,events,pct_events
+0 (reserved),8,5.3
+1-1023 (well-known),7,4.7
+1024-49151 (registered),107,71.3
+49152-65535 (dynamic),28,18.7

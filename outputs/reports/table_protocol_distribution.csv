@@ -1,0 +1,4 @@
+protocol,events,packets,pct_events,pct_packets
+TCP,128,3530,85.3,95.2
+Other/unlabelled,16,77,10.7,2.1
+ICMP,6,100,4.0,2.7
